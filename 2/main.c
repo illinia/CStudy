@@ -91,11 +91,47 @@
 //    return 0;
 //}
 //
+//
+//#include <stdio.h>
+//#include "header.h"
+//
+//int main() {
+//    printf("내이름은 %s이고, 나이는 %d세입니다.\n", Name, Age);
+//    return 0;
+//}
+//
+//# include <stdio.h>
+//# define PI 3.141592
+//# define R 5
+//
+//int main() {
+//    double area;
+//
+//    # ifdef PI
+//        printf("PI = 3.141592\n");
+//    # endif
+//    # undef R
+//    # define R 3
+//
+//    area = PI * R * R;
+//    printf("Radius %d\nArea = %.2lf\n", R, area);
+//    return 0;
+//}
 
-#include <stdio.h>
-#include "header.h"
+//# include <stdio.h>
+//# define STR(A, B) #A"는 " #B"의 수도이다."
+//
+//int main() {
+//    puts(STR(서울, 대한민국));
+//    puts(STR(위싱턴, 미국));
+//    return 0;
+//}
 
-int main() {
-    printf("내이름은 %s이고, 나이는 %d세입니다.\n", Name, Age);
-    return 0;
-}
+//# include <stdio.h>
+//# define STR(Y, M, D) Y ## M ## D
+//
+//int main() {
+//    printf("생년월일: %d\n", STR(11, 06, 10));
+//    printf("생년월일: %d\n", STR(10, 11, 25));
+//    return 0;
+//}
