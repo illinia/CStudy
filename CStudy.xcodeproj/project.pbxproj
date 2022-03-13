@@ -13,6 +13,7 @@
 		F84EA6B827D3882700DC8C09 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F84EA6B727D3882700DC8C09 /* main.c */; };
 		F84EA6BC27D491FD00DC8C09 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F84EA6BB27D491FD00DC8C09 /* main.c */; };
 		F84EA6C027DD92CA00DC8C09 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F84EA6BF27DD92CA00DC8C09 /* main.c */; };
+		F84EA6C427DDE58200DC8C09 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F84EA6C327DDE58200DC8C09 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,10 @@
 		F84EA6BB27D491FD00DC8C09 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F84EA6BE27DD92CA00DC8C09 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		F84EA6BF27DD92CA00DC8C09 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F84EA6C227DDE58200DC8C09 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		F84EA6C327DDE58200DC8C09 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F84EA6C527DDE5F200DC8C09 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		F84EA6C627DDE6DC00DC8C09 /* age.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = age.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		F8381ADB27CCE11700BA9ED7 = {
 			isa = PBXGroup;
 			children = (
+				F84EA6C127DDE57500DC8C09 /* 8 */,
 				F84EA6BD27DD92BB00DC8C09 /* 7 */,
 				F84EA6B927D491F200DC8C09 /* 6 */,
 				F84EA6B527D3881300DC8C09 /* 5 */,
@@ -129,6 +135,17 @@
 			path = 7;
 			sourceTree = "<group>";
 		};
+		F84EA6C127DDE57500DC8C09 /* 8 */ = {
+			isa = PBXGroup;
+			children = (
+				F84EA6C227DDE58200DC8C09 /* main.h */,
+				F84EA6C327DDE58200DC8C09 /* main.c */,
+				F84EA6C627DDE6DC00DC8C09 /* age.txt */,
+				F84EA6C527DDE5F200DC8C09 /* test.txt */,
+			);
+			path = 8;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +209,7 @@
 				F8381AF227CDEA8400BA9ED7 /* main.c in Sources */,
 				F8381AE827CCE11700BA9ED7 /* main.c in Sources */,
 				F84EA6B327CF9B2D00DC8C09 /* main.c in Sources */,
+				F84EA6C427DDE58200DC8C09 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
